@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio-Ujjwal Lade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#" id="fixed"><i class="fa-solid fa-up-long"></i></a>
+    <header id="home">
+        <h1 class="myName">Ujjwal Lade</h1>
+        <ul class="socialLinks">
+            <li><i class="fa-brands fa-square-facebook"></i></li>
+            <li><i class="fa-brands fa-square-instagram"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-square-github"></i></li>
+        </ul>
+    </header>
+    <nav>
+        <ul class="navBar">
+            <li class="active"><a href="#" ><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="#aboutMe"><i class="fa-solid fa-user"></i>About Me</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-address-card"></i>Contact</a></li>
+            <li><a href="#resume"><i class="fa-solid fa-file"></i>Resume</a></li>
+        </ul>
+    </nav>
+   <section class="home" >
+    <div class="welcomeText">
+        <div>
+        <h1><span>Hello World!!</span></h1>
+        <h4>I am,</h4>
+        <h3>Ujjwal Arvind Lade</h3>
+        <h4>Front-End Designer | Developer</h4>
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, earum?</p>
+        <a href="#aboutMe" class="aboutBtn">About Me</a>
+    </div>
+    </div>
+    <!-- <div class="img">
+        <img src="Images/laptop.png" alt="" width="100">
+    </div> -->
+    <div class="profileImg">
+        <img src="Images\img.png" alt="">
+    </div>
+   </section>
+   <section class="aboutMe" id="aboutMe">
+    <div class="sideImage">
+        <img src="Images/laptop.png" alt="">
+    </div>
+    <div class="art"></div>
+    <div class="info" id="info">
+        <h1>
+            Who I am
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident accusantium est accusamus ducimus repellat praesentium porro architecto asperiores autem animi quo voluptatibus maiores eos commodi qui laborum voluptatum, fugit libero iure distinctio reiciendis. Quaerat accusamus blanditiis vero. Saepe ab impedit nihil unde illum, qui voluptatum cupiditate, sit ipsum autem exercitationem corporis, animi sed! Doloremque nisi aliquam quas nihil est repellendus molestiae in a minus consequuntur vitae nam rem odio facere neque, id nobis minima amet quam sapiente suscipit voluptates. Tenetur itaque nostrum nihil aliquam amet cumque voluptates
+        </p>
+        <button class="resumebtn"><a href="#resume">Download Resume</a></button>
+    </div>
+   </section>
+   <section class="contact" id="contact">
+    <div height = "30" class="tp"></div>
+      <div class="inputs">
+        <form action="">
+            <div>
+                <h2 class="h3"> Contact Me</h2>
+                <p class="h3">Please Fill the Form</p>
+            </div>
+            <div class="inputDiv">
+                <label for="email">Email Id<span class="imp">*</span></label>
+                <input type="email" name="email" id="email" required autocomplete="off">
+            </div>
+            <div class="inputDiv">
+                <label for="fname">Full Name <span class="imp"> *</span></label>
+                <input type="text" name="fname" id="fanme">
+            </div>
+            <div class="inputDiv">
+                <label for="mno">Mobile no</label>
+                <input type="tel" name="mno" id="mno">
+            </div>
+            <div class=" textArea inputDiv">
+                <label for="msg">Message<span class="imp">*</span></label>
+                <textarea name="msg" id="msg"></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+      </div>
+   </section>
+   <!-- <section class="resume" id="resume">
+         <div class="card">
+            <div class="float">
+                <h1>Education</h1>
+            </div>
+            <div class="education">
+                <h3 class="highlight">Bachelore of Engineering</h3>
+                <div class="collegeInfo">
+                    <h3>R.H.Sapat College of Engineering</h3>
+                    <p><em>06/2018-07-2022</em></p>
+                    <p><em>8.34 CGPA</em></p>
+                    <h5>Computer Engineering</h5>
+                </div>
+            </div>
+            <div class="education">
+                <h3 class="highlight">HSC</h3>
+                <div class="collegeInfo">
+                    <h3>KTHM College Nashik</h3>
+                    <p><em>06/2016-05-2018</em></p>
+                    <p><em>71.54 %</em></p>
+                    <h5>Physics Chemistry Mathematics</h5>
+                </div>
+            </div>
+            <div class="education">
+                <h3 class="highlight">SSC</h3>
+                <div class="collegeInfo">
+                    <h3>Jankai Secondary School</h3>
+                    <p><em>06/2015-06-2016</em></p>
+                    <p><em>90.6 %</em></p>
+                </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="float">
+                <h1>Experience</h1>
+            </div>
+            <div class="workPlace">
+                <h3 class="highlight">Trainee Software Engineer</h3>
+                <div class="collegeInfo">
+                    <h3>IVY Comptech</h3>
+                    <p><em>Aug 2022 - Present</em></p>
+                </div>
+            </div>
+           
+         </div>
+         <div class="card">
+            <div class="float">
+                <h1>Projects</h1>
+            </div>
+        
+        <div class="workPlace">
+            <div class="workPlace">
+                <h3 class="highlight">Steganography</h3>
+                <div class="collegeInfo">
+                    <h3>Information Security</h3>
+                    <p><em>Image and audio Based steganography to hide secret Message in Image and audio</em></p>
+                </div>
+             </div>
+        </div>
+    </div>
+   </section> -->
+   <section class="resume" id="resume"> 
+       <div class="rsm">
+        <iframe src="Images/Ujjwal Lade Resume.pdf" type="" allowfullscreen="false" ></iframe>
+       </div>
+   </section>
+   <footer>
+    <p>Copyright 2022 by ujjwal lade. All rights reserved</p>
+    <h1 class="myName" style="color: blueviolet;">Ujjwal Lade</h1>
+   </footer>
+</body>
+</html>
