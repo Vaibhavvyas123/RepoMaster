@@ -506,8 +506,16 @@ footer p{
         margin-top: 0;
     }
     .welcomeText .aboutBtn {
-        margin: 104px;
-        
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 10px;
+        border: 2px solid #8a2be2;
+        color: #8a2be2;
+        font-weight: 900;
+        display: block;
+        text-align: center;
+        width: 144px;
     }
     nav {
         background-color: rgb(235, 203, 255);
@@ -516,5 +524,19 @@ footer p{
         position: static;
         /* top: 0; */
         z-index: 10;
+    }
+    iframe {
+        background: transparent;
+        width: 350px;
+        height: 500px;
+        border: none;
+    }
+    .contact .inputs {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .welcomeText p {
+        color: rgb(91, 91, 91);
+        margin-bottom: 15px;
     }
 }
