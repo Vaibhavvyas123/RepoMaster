@@ -25,5 +25,13 @@ btnAdd.addEventListener('click',()=>{
 })
     
 
+let btnClear = document.getElementById("btnClear")
+btnClear.addEventListener('click',()=>{
+    let ul = document.querySelector("ul");
+    ul.innerHTML = "";
+})
+
+
+
 
 
