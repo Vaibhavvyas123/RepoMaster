@@ -54,5 +54,10 @@ ul li{
 }
 li button{
     padding: 3px 5px;
+    background-color: red;
+    border: none;
+    border-radius: 5px ;
+    font-size: 10px;
+    color: white;
 }
 
